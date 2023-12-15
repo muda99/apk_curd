@@ -96,8 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             SizedBox(height: 16.0),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
+            const Padding(
+              padding: EdgeInsets.all(16.0),
               child: Text(
                 "Daftar Produk",
                 style: TextStyle(
